@@ -86,6 +86,7 @@ export const NavItem = styled.li`
 `;
 export const NavLinks = styled(Link)`
   color: white;
+  font-family: "Montserrat";
   display: flex;
   align-items: center;
   text-decoration: none;

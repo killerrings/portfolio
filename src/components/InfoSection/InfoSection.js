@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Container, Button } from "../../globalStyes";
 import {
   InfoSec,
   InfoRow,
@@ -11,23 +12,22 @@ import {
   ImgWrapper,
   Img,
 } from "./InfoSection.elements";
-import { Container, Button } from "../../globalStyes";
 
-const InfoSection = ({
+function InfoSection({
   primary,
   lightBg,
-  imgStart,
-  lightTopLine,
-  lightTextDesc,
-  buttonLabel,
-  description,
-  headline,
-  lightText,
   topLine,
-  start,
+  lightTopLine,
+  lightText,
+  lightTextDesc,
+  headline,
+  description,
+  buttonLabel,
   img,
   alt,
-}) => {
+  imgStart,
+  start,
+}) {
   return (
     <>
       <InfoSec lightBg={lightBg}>
@@ -55,6 +55,6 @@ const InfoSection = ({
       </InfoSec>
     </>
   );
-};
+}
 
 export default InfoSection;
