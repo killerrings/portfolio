@@ -1,0 +1,16 @@
+export const homeObjOne = {
+  lightBg: false,
+  primary: true,
+  lightBg: false,
+  imgStart: "",
+  lightTopLine: true,
+  lightTextDesc: true,
+  buttonLabel: "Get Started",
+  description: "I'm a front-end Developer based in Assam.",
+  headline: "Build great React projects",
+  lightText: true,
+  topLine: "Developer",
+  start: "",
+  img: require("./svg-1.svg"),
+  alt: "Image",
+};
