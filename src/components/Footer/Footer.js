@@ -30,15 +30,11 @@ const Footer = () => {
             <FooterLinksTitle>About Me</FooterLinksTitle>
             <FooterLink to="/sign-up">How it works</FooterLink>
             <FooterLink to="/">Testimonials</FooterLink>
-            <FooterLink to="/">Careers</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
           </FooterLinksItems>
           <FooterLinksItems>
             <FooterLinksTitle>Contact Me</FooterLinksTitle>
             <FooterLink to="/sign-up">How it works</FooterLink>
             <FooterLink to="/">Testimonials</FooterLink>
-            <FooterLink to="/">Careers</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
 
@@ -47,15 +43,11 @@ const Footer = () => {
             <FooterLinksTitle>Videos</FooterLinksTitle>
             <FooterLink to="/sign-up">How it works</FooterLink>
             <FooterLink to="/">Testimonials</FooterLink>
-            <FooterLink to="/">Careers</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
           </FooterLinksItems>
           <FooterLinksItems>
             <FooterLinksTitle>Social Media</FooterLinksTitle>
             <FooterLink to="/sign-up">How it works</FooterLink>
             <FooterLink to="/">Testimonials</FooterLink>
-            <FooterLink to="/">Careers</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>

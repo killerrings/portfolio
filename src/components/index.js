@@ -6,3 +6,4 @@ export { default as Pricing } from "./Pricing/Pricing";
 export { default as TextSection } from "./TextSection/TextSection";
 export { default as Posts } from "./Posts/Posts";
 export { default as Post } from "./Post/Post";
+export { default as ReactTypeFormEmbed } from "./ReactTypeFormEmbed/index";

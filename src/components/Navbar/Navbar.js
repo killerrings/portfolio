@@ -57,18 +57,18 @@ function Navbar() {
               </NavItem>
 
               <NavItem>
-                <NavLinks to="/contact">Contact</NavLinks>
+                <NavLinks to="/work">Work</NavLinks>
               </NavItem>
 
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to="/sign-up">
-                    <Button primary>SIGN UP</Button>
+                  <NavBtnLink to="/contact">
+                    <Button primary>Contact</Button>
                   </NavBtnLink>
                 ) : (
-                  <NavBtnLink to="/sign-up">
+                  <NavBtnLink to="/contact">
                     <Button fontBig primary>
-                      SIGN UP
+                      Contact
                     </Button>
                   </NavBtnLink>
                 )}
