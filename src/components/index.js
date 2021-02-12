@@ -4,3 +4,5 @@ export { default as Footer } from "./Footer/Footer";
 export { default as Subscription } from "./Subscription/Subscription";
 export { default as Pricing } from "./Pricing/Pricing";
 export { default as TextSection } from "./TextSection/TextSection";
+export { default as Posts } from "./Posts/Posts";
+export { default as Post } from "./Post/Post";

@@ -1,6 +1,11 @@
 import React from "react";
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from "./Data";
-import { InfoSection, Pricing, TextSection } from "../../components";
+import {
+  InfoSection,
+  Pricing,
+  Subscription,
+  TextSection,
+} from "../../components";
 
 const Home = () => {
   return (
@@ -11,6 +16,7 @@ const Home = () => {
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjFour} />
+      <Subscription />
     </>
   );
 };
